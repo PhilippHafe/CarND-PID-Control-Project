@@ -60,15 +60,3 @@ double PID::TotalError() {
    */
   return p_error * Kp + i_error * Ki + d_error * Kd;  // TODO: Add your total error calc here!
 }
-
-  double PID::AverageError(){
-    return sum_err/counter;
-  }
-
-  double PID::MinError(){
-    return min_err;
-  }
-
-  double PID::MaxError(){
-    return max_err;
-  }

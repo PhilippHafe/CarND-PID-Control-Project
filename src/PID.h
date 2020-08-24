@@ -31,15 +31,6 @@ class PID {
    */
   double TotalError();
 
-    /*
-  *  Average, min and max error functions
-  */
-  double AverageError();
-
-  double MinError();
-
-  double MaxError();
-
 //  private:
   /**
    * PID Errors
